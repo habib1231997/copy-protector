@@ -1,0 +1,11 @@
+<script>
+document.addEventListener(&#39;contextmenu&#39;, event =&gt; {
+  event.preventDefault();
+  return false;
+});
+
+document.addEventListener(&#39;selectstart&#39;, event =&gt; {
+  event.preventDefault();
+  return false;
+});
+</script>
